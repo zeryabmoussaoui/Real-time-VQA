@@ -4,5 +4,5 @@ The first notebook which is "Preprocessing" contains code to preprocess the VQA 
 The produced data are structured and saved into tfrecord binary files, ready to be directly read from tensorflow API as a dataset of tuples (image, question, answers) where each of this data is in form of numerical vectors.
 
 The second notebook contrains the architecture of the model, the model is composed of different modules combine to form a VQA model. 
-![architecture](./assets/VQA_arch.png)
+![architecture](../assets/VQA_arch.PNG)
 
