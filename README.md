@@ -24,7 +24,11 @@ This program was tested on a google colab, hence it was tested on the hardware p
  * Python 3.7
  * Tensorflow 1.14.0 with eager execution
  * Keras 2.2.4-tf
- 
+
+# Dataset
+
+A tool for generating dataset is available on : [VQA Dataset generator](https://github.com/zeryabmoussaoui/VQA-dataset-Generator).
+
 # Training 
 In order to train the model, someone has to follow these steps : 
 1. Run **_Install.ipynb_**. This is mandatory to have the necessary data for training.
