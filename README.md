@@ -2,13 +2,19 @@
 
 This Repository contains code of a VQA model. This model is an attempt to create a relatively lightweight VQA model compared to stat of the art models.
 
+![](./assets/baths.png)
+
 # Project structure
 
 There are 3 notebooks on the project : 
-* **_Install.ipynb_** : This notebook sets the working environment, sets the file hierarchy needed and installs some needed data. **NOTE** : Some files may take a long time to download due to their size, for example the VQA dataset.
-* **_Preprocessing.ipynb_** : This notebook preprocesses the data needed for the model. It treats the VQA dataset by preprocessing the images, questions and answers, it creates from the preprocessed data a set of structured data and save them in ".tfrecord" binary files.
-* **_VQA_model.ipynb_** : This notebook trains the VQA model and generates at the end a file containing the weights of the trained model.
-* **Demo** : This directory contains a standalone demo code.
+
+* [Install.ipynb](./Install.ipynb) : This notebook sets the working environment, sets the file hierarchy needed and installs some needed data. **NOTE** : Some files may take a long time to download due to their size, for example the VQA dataset.
+
+* [Preprocessing.ipynb](./Preprocessing.ipynb) : This notebook preprocesses the data needed for the model. It treats the VQA dataset by preprocessing the images, questions and answers, it creates from the preprocessed data a set of structured data and save them in ".tfrecord" binary files.
+
+* [VQA_model.ipynb](./VQA_model.ipynb) : This notebook trains the VQA model and generates at the end a file containing the weights of the trained model.
+
+* [Demo](./Demo/) : This directory contains a standalone demo code.
 
 
 
