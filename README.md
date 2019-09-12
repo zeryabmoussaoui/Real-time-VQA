@@ -16,7 +16,7 @@ There are 3 notebooks on the project :
 
 * [Demo](./Demo/) : This directory contains a standalone demo code.
 
-
+An article describing the architecture is provided : [Article](./Lightweight_VQA.pdf)
 
 # Prerequirements
 
